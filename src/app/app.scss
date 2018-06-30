@@ -14,3 +14,49 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+/* wendy-one-regular - latin */
+@font-face {
+    font-family: 'Wendy One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/Wendy_One/wendy-one-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/Wendy_One/wendy-one-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/Wendy_One/wendy-one-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/Wendy_One/wendy-one-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/Wendy_One/wendy-one-v5-latin-regular.svg#WendyOne') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Humanst';
+    src: url('../assets/fonts/roboto-light.woff2') format('woff2'), url('../assets/fonts/roboto-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    font-family: 'Wendy One';
+  }
+
+.toolbar-background{
+    background-color: brown;
+
+}
+
+
+.fixed-content{
+    background-image : url(../assets/imgs/woodentexture-piece.jpg);
+    background-repeat: repeat;
+}
+
+.toolbar-title{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.item{
+    background-color: transparent;
+    font-size: 1.8rem;
+
+}

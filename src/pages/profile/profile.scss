@@ -1,0 +1,81 @@
+page-profile{
+  .profile-card{
+    height: 100%;
+    &>.card-header{
+      height: 35%;
+      display: flex;
+      padding: 1rem;
+      align-items: center;
+      justify-content: center;
+      // background-image: url('https://www.w3schools.com/html/pic_trulli.jpg');
+      // -webkit-filter: blur(30px);
+      // -moz-filter: blur(30px);
+      // -o-filter: blur(30px);
+      // -ms-filter: blur(30px);
+      // filter: blur(30px);
+      // position: relative;
+      // z-index: 1;
+      &>.avatar{
+        height: 13rem;
+        width: 13rem;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border: 0.2rem solid brown;
+        box-shadow: 2px 1px black;
+        >img{
+          height: 10rem;
+          width: 10rem;
+        }
+      }
+      
+    }
+    &>.banner-group{
+        z-index: 9999;
+        margin-bottom: 2rem;
+        filter: none;
+        position: relative;
+        opacity: 0.8;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color: white;
+        font-weight: normal;
+        font-size: 2rem;
+        &>div{
+          
+          &>span{
+            display: block;
+            text-align: center;
+          }
+          
+          padding: 1rem;
+          background: brown;
+          border-radius: 2rem;
+          box-shadow: 2px 3px black;
+        }
+    }
+    &>.card-body{
+      height: 45%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 1.5rem;
+      &>.cards{
+        border-radius: 1rem;
+        border: 0.1rem solid brown;
+        box-shadow: 2px 3px black;
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+        background: transparent;
+        &>.nh-card-header{
+          font-size: 1.9rem;
+        }
+        &>.nh-card-detail{
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}
+

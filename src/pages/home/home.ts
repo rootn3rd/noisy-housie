@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { MenuController, App } from 'ionic-angular';
+import { ProfilePage } from './../profile/profile';
+import { DetailPage } from './../detail/detail';
 
 @Component({
   selector: 'page-home',
@@ -7,8 +9,9 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
-
+  tab2Root = DetailPage;
+  tab3Root = ProfilePage;
+  constructor() {
   }
 
 }
